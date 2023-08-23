@@ -1,0 +1,93 @@
+
+
+.fondo {
+    background-color: #e9ecef;
+}
+
+.blurred {
+    backdrop-filter: blur(6px);
+}
+
+.each-slide > div {
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+    background-position: center;
+    height: 650px;
+}
+
+
+
+.MuiDrawer-paper {
+  background-color: #e9ecef !important;
+  color: #e9ecef !important;
+}
+
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+
+.card-article {
+    transition: transform 0.2s ease;
+  }
+  
+
+  .card-article:hover {
+    transform: translateY(-17px);
+  }
+  
+  .portada {
+    width: "100vw";
+    height: 500px;
+  }
+
+  /* Loader */
+
+  .loader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loader::before,
+  .loader::after {
+    position: absolute;
+    content: "";
+    height: 8em;
+    width: 8em;
+    border: 1em solid #3a0ca3;
+    border-radius: 50%;
+    animation: loader_79178 2s linear infinite;
+  }
+  
+  .loader::after {
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  
+  @keyframes loader_79178 {
+    0% {
+      border: 1em solid #3a0ca3;
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    100% {
+      border: 0 solid #3a0ca3;
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+
+
+.btn-menu {
+  transition: box-shadow 0.2s ease; 
+}
+
+
+.btn-menu:hover {
+  box-shadow: 1px 1px 6px #3a0ca3; 
+}

@@ -12,7 +12,7 @@ const Error = () => {
             <Button variant="outlined" sx={{mt: 5, textTransform:"none", fontSize:20}}>
                 <NextLink legacyBehavior href={"/"} passHref>
                     <Link sx={{textDecoration:"none"}}>
-                        Ir a la página principal
+                        Ir a la página principal.
                     </Link>
                 </NextLink>
             </Button>

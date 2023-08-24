@@ -35,7 +35,7 @@ const NavBar = () => {
             <NextLink legacyBehavior passHref href="/">
               <Link sx={{textDecoration: "none"}}>
                 <Typography component="h1" variant='h4' color="primary"
-                  sx={{ fontSize: { xs: 23, sm: 35 } }}>Las Violetas</Typography>
+                  sx={{ fontSize: { xs: 23, sm: 35 } }}>Buenos Aires flores</Typography>
               </Link>
             </NextLink>
           </Box>

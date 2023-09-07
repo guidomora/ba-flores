@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <MainLayout title={'Buenos Aires flores'} pageDescription={'especialistas en coronas de flores, calidad premium y la mejor atencion'} 
-      imageFullUrl={'https://firebasestorage.googleapis.com/v0/b/segunda-floreria.appspot.com/o/newPortada.png?alt=media&token=26361baf-5527-4eed-9864-eb86328a2989'}>
+      imageFullUrl={'https://firebasestorage.googleapis.com/v0/b/segunda-floreria.appspot.com/o/portadaNueva.jpeg?alt=media&token=959993f4-baad-474b-a739-0257c9ad2905'}>
         <Portada />
         <Box>
           <Nosotros />
